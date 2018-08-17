@@ -355,6 +355,7 @@ CREATE TABLE `tb_userlist` (
 
 LOCK TABLES `tb_userlist` WRITE;
 /*!40000 ALTER TABLE `tb_userlist` DISABLE KEYS */;
+INSERT INTO `tb_userlist` VALUES ('user','111');
 /*!40000 ALTER TABLE `tb_userlist` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -431,4 +432,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-08-08 17:45:55
+-- Dump completed on 2018-08-17 11:27:13
